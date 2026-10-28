@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Melodify menyediakan aset audio digital untuk kreator musik.">
+  <title>Melodify | Create Your Sound</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">♫ Melo<span>dif</span>y</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Buka menu navigasi" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a class="nav-cta" href="#products">Explore Sounds</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">YOUR DIGITAL MUSIC PARTNER</p>
+        <h1>Create Your Sound,<br>
+          <span>Shape Your World.</span>
+        </h1>
+        <p class="hero-description">
+          Temukan sample, loop, drum kit, dan preset berkualitas
+          untuk menciptakan musik yang mencerminkan kreativitasmu.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#products">
+            Explore Products ↗
+          </a>
+          <a class="button button-outline" href="about.html">
+            About Melodify
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>500+</strong><span>Sound Assets</span></div>
+          <div><strong>5</strong><span>Product Categories</span></div>
+          <div><strong>∞</strong><span>Creative Ideas</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="sound-orbit orbit-one"></div>
+        <div class="sound-orbit orbit-two"></div>
+        <div class="hero-disc">♫</div>
+        <div class="floating-card">
+          <span class="playing-dot"></span>
+          <div>
+            <strong>Creative Mode</strong>
+            <p>Turn ideas into music.</p>
+          </div>
+          <span class="music-bars">▂ ▅ ▃ ▇ ▄ ▆</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR COLLECTION</p>
+          <h2>Find Your <span>Perfect Sound.</span></h2>
+          <p>Semua yang kamu butuhkan untuk membangun karakter musikmu.</p>
+        </div>
+        <a href="#categories" class="text-link">View Categories ↗</a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-art art-purple">
+            <span class="art-symbol">♫</span>
+            <span class="art-label">MELODY</span>
+          </div>
+          <div class="product-info">
+            <span class="tag">BEST FOR COMPOSERS</span>
+            <h3>Melody Sample Pack</h3>
+            <p>Kumpulan melodi untuk berbagai genre musik.</p>
+            <div class="product-bottom">
+              <strong>Rp49.000</strong>
+              <button class="add-button" data-product="Melody Sample Pack"
+                aria-label="Pilih Melody Sample Pack">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-art art-orange">
+            <span class="art-symbol">◉</span>
+            <span class="art-label">RHYTHM</span>
+          </div>
+          <div class="product-info">
+            <span class="tag">FOR BEAT MAKERS</span>
+            <h3>Essential Drum Kit</h3>
+            <p>Kick, snare, hi-hat, dan suara perkusi.</p>
+            <div class="product-bottom">
+              <strong>Rp39.000</strong>
+              <button class="add-button" data-product="Essential Drum Kit"
+                aria-label="Pilih Essential Drum Kit">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-art art-blue">
+            <span class="art-symbol">〰</span>
+            <span class="art-label">TEXTURE</span>
+          </div>
+          <div class="product-info">
+            <span class="tag">AUDIO ENGINEERS</span>
+            <h3>Ambient Sound FX</h3>
+            <p>Efek suara untuk memperkaya suasana audio.</p>
+            <div class="product-bottom">
+              <strong>Rp29.000</strong>
+              <button class="add-button" data-product="Ambient Sound FX"
+                aria-label="Pilih Ambient Sound FX">+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-art art-pink">
+            <span class="art-symbol">⌁</span>
+            <span class="art-label">SYNTH</span>
+          </div>
+          <div class="product-info">
+            <span class="tag">SOUND DESIGN</span>
+            <h3>Synth Preset Pack</h3>
+            <p>Preset synth untuk menciptakan suara khas.</p>
+            <div class="product-bottom">
+              <strong>Rp59.000</strong>
+              <button class="add-button" data-product="Synth Preset Pack"
+                aria-label="Pilih Synth Preset Pack">+</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">
+        * Produk dan harga di atas merupakan contoh untuk demonstrasi website.
+      </p>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE YOUR POTENTIAL</p>
+          <h2>Made for Every <span>Creator.</span></h2>
+        </div>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-item">
+          <span>🎹</span>
+          <h3>Music Producers</h3>
+          <p>Bangun beat dan produksi musik dengan lebih kreatif.</p>
+        </div>
+        <div class="category-item">
+          <span>🎼</span>
+          <h3>Composers</h3>
+          <p>Temukan inspirasi untuk melodi dan komposisi.</p>
+        </div>
+        <div class="category-item">
+          <span>🎧</span>
+          <h3>Audio Engineers</h3>
+          <p>Tambahkan detail dan tekstur pada karya audio.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <p class="eyebrow">YOUR NEXT HIT STARTS HERE</p>
+      <h2>Great Music Begins with <span>One Sound.</span></h2>
+      <p>Jelajahi dunia suara dan wujudkan ide musikmu bersama Melodify.</p>
+      <a class="button button-primary" href="about.html">Discover Melodify ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="index.html">♫ Melo<span>dif</span>y</a>
+    <p>Empowering creativity through digital sound.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="mailto:hello@melodify.example">Contact</a>
+    </div>
+    <p class="copyright">© 2026 Melodify. Project website demonstration.</p>
+  </footer>
+</body>
+</html>
